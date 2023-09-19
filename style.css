@@ -1,0 +1,109 @@
+body{
+    background-color:gainsboro;
+    font-family: sans-serif;
+    color: royalblue;
+    margin-left: 25px;
+}
+
+
+.mainHead{
+    text-align: center;
+    color: teal;
+}
+
+.circletag {
+    border-radius: 75%;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+}
+
+.headshot{
+    width: 200px;
+}
+
+.image{
+    text-align: center;
+}
+
+
+
+a:hover {
+    background-color: yellow;
+  }
+
+.aboutInfo{
+    color: peru;
+}
+
+.myTable.centered-table  {
+    border: solid 0px #DDEEEE;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;
+	width: 50%;
+    height: 50%;
+}
+
+
+
+.myTable thead th:first-child {
+    border-radius: 52px 0 0 0;
+}
+
+.myTable thead th:last-child {
+    border-radius: 0 52px 0 0;
+}
+
+.myTable tbody tr:last-child td:last-child {
+    border-radius: 0 0 52px 0;
+}
+
+.myTable tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 52px;
+}
+
+.myTable tr:nth-child(odd) { 
+	background :azure;
+}
+  
+
+.myTable tr:nth-child(even){
+		background: bisque;
+ 
+}
+.myTable thead th {
+    background-color: #DDEFEF;
+    border: solid 1px #DDEEEE;
+    color: #336B6B;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+        
+}
+.myTable tbody td {
+    border: solid 1px #DDEEEE;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+caption {
+	font: 2.0rem Helvetica;
+    padding: 10px;
+    caption-side: bottom;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.skeletor {
+    font: 1.8rem Helvetica;
+    letter-spacing: 3px;
+   
+}
+
+
+
